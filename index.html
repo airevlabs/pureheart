@@ -1,7 +1,80 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pure Heart Home Health Care | Senior Care in Chicago &amp; Suburbs</title>
-<meta name="description" content="Compassionate home care, senior companionship, personal care &amp; dementia support across Chicago &amp; surrounding Illinois suburbs. 24/7 care coordinators.">
+<meta name="description" content="Compassionate non-medical home care, senior companionship, personal care &amp; dementia support across Chicago &amp; surrounding Illinois suburbs. 24/7 care coordinators.">
 <link rel="canonical" href="https://pureheartchicagocare.com/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://pureheartchicagocare.com/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between non-medical home care and skilled home health?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non-medical home care assists seniors with activities of daily living (ADLs)—such as bathing, grooming, dressing, meal preparation, medication reminders, companionship, and mobility support. Unlike skilled clinical home health, it does not involve medical nursing, wound care, or IV therapies, allowing seniors to remain safe, comfortable, and independent at home."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Medicare or health insurance pay for in-home personal care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditional Medicare and standard private health insurance typically only cover short-term, doctor-prescribed clinical home health care. Non-medical daily home care is generally covered through private pay, long-term care insurance (LTCI), Veterans Aid and Attendance benefits, or specific Medicaid waiver programs. Pure Heart helps families explore all eligible coverage options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas throughout Illinois does Pure Heart serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pure Heart provides compassionate in-home care across the City of Chicago, Rockford, and surrounding northern Illinois suburbs. Our care network extends throughout Cook, DuPage, Lake, Will, Kane, McHenry, and Winnebago Counties, pairing families with dedicated, background-checked local caregivers in their immediate neighborhoods."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can caregiver support begin after an inquiry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Following an initial conversation and a complimentary in-home consultation and safety assessment, Pure Heart can typically match a dedicated caregiver and begin care within 24 to 48 hours. We also accommodate urgent family transitions, sudden caregiver absences, and immediate hospital or rehabilitation discharge plans."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Pure Heart caregivers licensed, background-checked, and insured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pure Heart Home Health Care is licensed by the State of Illinois and fully bonded and insured. 100% of our professional caregivers undergo rigorous multi-state criminal background checks, motor vehicle screenings, credential verifications, and structured personal interviews before ever entering a client's home."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if our regular caregiver is sick or unavailable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pure Heart provides 24/7 care coordination and maintains a network of thoroughly vetted backup caregivers. If your primary caregiver is ill, taking planned time off, or encounters an emergency, our care coordination team immediately coordinates a qualified replacement caregiver to ensure uninterrupted care and peace of mind."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can care schedules and hours change as my loved one's needs evolve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pure Heart builds completely customizable and flexible care plans. Whether your family needs companion visits a few hours per week, respite relief, 12-hour daytime blocks, or around-the-clock 24/7 live-in support, our care coordinators regularly review and adjust schedules as your loved one's condition changes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you match a caregiver with my loved one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Caregiver matching at Pure Heart goes beyond routine scheduling. During our free in-home consultation, we assess your loved one's specific physical needs, daily routines, dietary preferences, personality traits, and hobbies. We then carefully introduce a compatible caregiver to ensure a warm, trusting, and family-like relationship."
+      }
+    }
+  ]
+}
+</script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Raleway:wght@300;400;500;600;700&display=swap">
 <style>
   :root{color-scheme:light}
@@ -275,8 +348,23 @@
 
   .visually-hidden{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
 
+  /* FAQ Accordion */
+  .faq{ background:var(--color-surface-muted); }
+  .faq-container{ max-width:860px; margin:40px auto 0; display:flex; flex-direction:column; gap:16px; }
+  .faq-item{ background:var(--color-surface); border:1px solid var(--color-border); border-radius:18px; padding:0; overflow:hidden; transition:box-shadow 180ms ease, border-color 180ms ease; }
+  .faq-item:hover{ box-shadow:var(--shadow-soft); border-color:color-mix(in srgb, var(--color-primary) 30%, var(--color-border)); }
+  .faq-item[open]{ box-shadow:var(--shadow-soft); border-color:color-mix(in srgb, var(--color-primary) 40%, var(--color-border)); }
+  .faq-question{ font-family:var(--font-heading); font-size:17px; font-weight:600; color:var(--color-ink); padding:20px 24px; list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between; gap:16px; user-select:none; }
+  .faq-question::-webkit-details-marker{ display:none; }
+  .faq-question::marker{ display:none; }
+  .faq-icon{ width:28px; height:28px; border-radius:999px; background:var(--color-surface-muted); color:var(--color-primary); display:flex; align-items:center; justify-content:center; flex:none; transition:transform 200ms ease, background-color 200ms ease; }
+  .faq-item[open] .faq-icon{ transform:rotate(180deg); background:var(--color-primary); color:var(--color-on-primary); }
+  .faq-answer{ padding:0 24px 22px 24px; font-size:15px; line-height:1.65; color:var(--color-ink-muted); }
+  .faq-answer p{ margin:0; }
+  .faq-answer strong{ color:var(--color-ink); }
+
   /* communities we serve */
-  .communities{ background:var(--color-surface-muted); }
+  .communities{ background:var(--color-bg); }
   .communities-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:44px; }
   @media (max-width:920px){ .communities-grid{ grid-template-columns:1fr 1fr; } }
   @media (max-width:620px){ .communities-grid{ grid-template-columns:1fr; } }
@@ -346,8 +434,9 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#challenge">The Challenge</a></li>
         <li><a href="#solution">How We Help</a></li>
-        <li><a href="#communities">Communities</a></li>
         <li><a href="#stories">Stories</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#communities">Communities</a></li>
         <li><a href="https://claude.ai/code/artifact/fb063cc5-fe1d-4aa5-a3cb-46865786bfa7">Refer a Patient</a></li>
         <li><a href="https://claude.ai/code/artifact/ef9278db-c2f1-4c5a-8a4d-158025a8ccd6">Careers</a></li>
         <li><a href="#cta">Contact</a></li>
@@ -368,7 +457,7 @@
     <div class="hero-copy">
       <span class="eyebrow"><span class="rule"></span>Senior Home Care &middot; Chicago, Rockford &amp; Suburbs</span>
       <h1>The comfort of home.<br>The confidence of <em>care</em>.</h1>
-      <p class="lede">Pure Heart brings dedicated personal care, companionship, and dependable everyday support into Chicago, Rockford, and surrounding Illinois homes &mdash; so your family can stay together, and your loved one can stay where they belong.</p>
+      <p class="lede">Pure Heart brings dedicated non-medical personal care, companionship, and dependable everyday support into Chicago, Rockford, and surrounding Illinois homes &mdash; so your family can stay together, and your loved one can stay where they belong.</p>
       <div class="cta-row">
         <a class="btn btn-accent" href="#cta">Request a Free Consultation<svg aria-hidden="true"><use href="#icon-arrow-right"/></svg></a>
         <a class="btn btn-ghost" href="tel:+13125550142"><svg aria-hidden="true"><use href="#icon-phone"/></svg>(312) 555-0142</a>
@@ -504,6 +593,108 @@
     <p class="sample-note">Sample testimonials shown for layout purposes — replace with real, consented client stories before launch.</p>
   </div>
   <div class="seam seam--to-muted" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,0 C360,80 1080,80 1440,0 L1440,80 L0,80 Z"/></svg></div>
+</section>
+
+<!-- ================= FREQUENTLY ASKED QUESTIONS ================= -->
+<section id="faq" class="faq section-pad">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow"><span class="rule"></span>Answers &amp; Clarity</span>
+      <h2>Frequently Asked Questions About Home Care</h2>
+      <p>Have questions about non-medical home care, scheduling, costs, or caregiver screening? Here is everything families need to know when choosing care across Chicago, Rockford, and Illinois suburbs.</p>
+    </div>
+
+    <div class="faq-container">
+      <!-- FAQ 1: Non-medical vs Skilled -->
+      <details class="faq-item" open>
+        <summary class="faq-question">
+          <span>What is the difference between non-medical home care and skilled home health?</span>
+          <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+        </summary>
+        <div class="faq-answer">
+          <p><strong>Non-medical home care</strong> assists seniors with activities of daily living (ADLs)&mdash;such as bathing, grooming, dressing, meal preparation, medication reminders, companionship, and mobility support. Unlike skilled clinical home health, it does not involve medical nursing, wound care, or IV therapies, allowing seniors to remain safe, comfortable, and independent at home.</p>
+        </div>
+      </details>
+
+      <!-- FAQ 2: Medicare / Insurance -->
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>Does Medicare or private health insurance pay for in-home personal care?</span>
+          <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+        </summary>
+        <div class="faq-answer">
+          <p>Traditional Medicare and standard health insurance typically only cover short-term, doctor-prescribed clinical home health care. Non-medical daily home care is generally covered through <strong>private pay, long-term care insurance (LTCI), Veterans Aid and Attendance benefits</strong>, or specific Medicaid waiver programs. Pure Heart helps families explore all eligible coverage options.</p>
+        </div>
+      </details>
+
+      <!-- FAQ 3: Service Areas -->
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>What areas throughout Illinois does Pure Heart serve?</span>
+          <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+        </summary>
+        <div class="faq-answer">
+          <p>Pure Heart provides compassionate in-home care across the <strong>City of Chicago, Rockford</strong>, and surrounding northern Illinois suburbs. Our care network extends throughout <strong>Cook, DuPage, Lake, Will, Kane, McHenry, and Winnebago Counties</strong>, pairing families with dedicated, background-checked local caregivers in their immediate neighborhoods.</p>
+        </div>
+      </details>
+
+      <!-- FAQ 4: Response Time -->
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>How quickly can caregiver support begin after an inquiry?</span>
+          <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+        </summary>
+        <div class="faq-answer">
+          <p>Following an initial conversation and a complimentary in-home consultation and safety assessment, Pure Heart can typically match a dedicated caregiver and begin care within <strong>24 to 48 hours</strong>. We also accommodate urgent family transitions, sudden caregiver absences, and immediate hospital or rehabilitation discharge plans.</p>
+        </div>
+      </details>
+
+      <!-- FAQ 5: Licensing & Screening -->
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>Are Pure Heart caregivers licensed, background-checked, and insured?</span>
+          <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+        </summary>
+        <div class="faq-answer">
+          <p>Yes. Pure Heart Home Health Care is <strong>licensed by the State of Illinois</strong> and fully bonded and insured. 100% of our professional caregivers undergo rigorous multi-state criminal background checks, motor vehicle screenings, credential verifications, and structured personal interviews before ever entering a client's home.</p>
+        </div>
+      </details>
+
+      <!-- FAQ 6: Backup Care -->
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>What happens if our regular caregiver is sick or unavailable?</span>
+          <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+        </summary>
+        <div class="faq-answer">
+          <p>Pure Heart provides <strong>24/7 care coordination</strong> and maintains a network of thoroughly vetted backup caregivers. If your primary caregiver is ill, taking planned time off, or encounters an emergency, our care coordination team immediately coordinates a qualified replacement caregiver to ensure uninterrupted care and peace of mind.</p>
+        </div>
+      </details>
+
+      <!-- FAQ 7: Schedule Flexibility -->
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>Can care schedules and hours change as my loved one's needs evolve?</span>
+          <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+        </summary>
+        <div class="faq-answer">
+          <p>Yes. Pure Heart builds completely customizable and flexible care plans. Whether your family needs companion visits a few hours per week, respite relief, 12-hour daytime blocks, or around-the-clock <strong>24/7 live-in support</strong>, our care coordinators regularly review and adjust schedules as your loved one's condition changes.</p>
+        </div>
+      </details>
+
+      <!-- FAQ 8: Caregiver Matching -->
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>How do you match a caregiver with my loved one?</span>
+          <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span>
+        </summary>
+        <div class="faq-answer">
+          <p>Caregiver matching at Pure Heart goes beyond routine scheduling. During our free in-home consultation, we assess your loved one's specific physical needs, daily routines, dietary preferences, personality traits, and hobbies. We then carefully introduce a compatible caregiver to ensure a warm, trusting, and family-like relationship.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+  <div class="seam seam--to-bg" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,80 C360,0 1080,0 1440,80 L1440,80 L0,80 Z"/></svg></div>
 </section>
 
 <!-- ================= COMMUNITIES WE SERVE ================= -->
@@ -694,8 +885,9 @@
         <a href="#home">Home</a>
         <a href="#challenge">The Challenge</a>
         <a href="#solution">How We Help</a>
-        <a href="#communities">Communities</a>
         <a href="#stories">Stories</a>
+        <a href="#faq">FAQ</a>
+        <a href="#communities">Communities</a>
         <a href="https://claude.ai/code/artifact/fb063cc5-fe1d-4aa5-a3cb-46865786bfa7">Refer a Patient</a>
         <a href="https://claude.ai/code/artifact/ef9278db-c2f1-4c5a-8a4d-158025a8ccd6">Careers</a>
         <a href="#cta">Contact</a>
