@@ -1,0 +1,39 @@
+# Pure Heart Home Health Care
+> Licensed non-medical home care agency providing compassionate senior care, companionship, personal care, and dementia support across Chicago, Rockford, and surrounding Illinois suburbs.
+
+## Overview
+Pure Heart Home Health Care provides personalized in-home daily personal care and companionship for aging adults. Pure Heart specializes exclusively in non-medical home care; it does not provide skilled medical nursing or clinical therapies. Care is coordinated 24/7 by local Illinois care coordinators.
+
+## Core Services
+- Personal Care & Activities of Daily Living (ADLs): Bathing, dressing, grooming, mobility support, transfer assistance, incontinence care.
+- Companionship Care: Emotional support, social engagement, meal preparation, medication reminders, light housekeeping.
+- Respite Care: Planned relief for primary family caregivers, ranging from 4-hour shifts to overnight and 24/7 care.
+- Alzheimer's & Dementia Support: Non-medical memory care, gentle redirection techniques, structured daily routines, and home safety oversight.
+- Homemaker & Household Help: Nutrition-focused meal prep, laundry, linen changes, kitchen/bathroom tidying.
+- Transportation & Errands: Escorted rides to medical appointments, pharmacy pickups, grocery shopping, and community outings.
+
+## Communities & Service Area
+- City of Chicago: Logan Square, Hyde Park, Lincoln Park, West Loop, Lakeview, Pilsen, Beverly, and all greater Chicago neighborhoods.
+- Cook County Suburbs: Evanston, Oak Park, Schaumburg, Arlington Heights, Bridgeview, Skokie, Berwyn.
+- DuPage County: Naperville, Wheaton, Downers Grove, Lombard, Elmhurst, Hinsdale.
+- Lake County: Waukegan, Highland Park, Buffalo Grove, Libertyville.
+- Will County: Joliet, Plainfield, Bolingbrook, Orland Park area.
+- Kane County: Aurora, Elgin, St. Charles, Geneva.
+- McHenry County: Crystal Lake, Algonquin, Woodstock.
+- Winnebago County: Rockford, Loves Park, Machesney Park.
+
+## Key Standards & Compliance
+- State of Illinois Licensed Non-Medical Home Care Agency (Illinois Department of Public Health - IDPH).
+- 100% Background-Checked, Fingerprinted, Bonded, and Insured Caregivers.
+- 24/7 Local Care Coordinator on-call support for families.
+- In-home assessments conducted within 24–48 hours; rapid care starts available.
+
+## Contact & Location
+- Website: https://airevlabs.github.io/pureheart/
+- Phone: (312) 555-0142 (Available 24/7)
+- Email: hello@pureheartchicagocare.com
+- Main Service Hub: 200 E Randolph St, Suite 5100, Chicago, IL 60601
+
+## Full Resources & Links
+- [Complete Agency Information](llms-full.txt): Comprehensive service details, FAQs, care tiers, and clinical citations.
+- [Pricing & Care Options](pricing.md): Transparent private-pay model, LTCI reimbursement, and hourly guidelines.

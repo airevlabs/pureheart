@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# Allow Major AI Search & Retrieval Crawlers for Citations and LLM Answers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+# Allow crawler access to machine-readable root files
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /pricing.md
+
+Sitemap: https://airevlabs.github.io/pureheart/sitemap.xml
