@@ -1,7 +1,13 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Pure Heart Home Health Care</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pure Heart Home Health Care | Senior Care in Chicago &amp; Suburbs</title>
+<meta name="description" content="Compassionate home care, senior companionship, personal care &amp; dementia support across Chicago &amp; surrounding Illinois suburbs. 24/7 care coordinators.">
+<link rel="canonical" href="https://pureheartchicagocare.com/">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Raleway:wght@300;400;500;600;700&display=swap">
 <style>
+  :root{color-scheme:light}
+  body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}
+  img{max-width:100%}
+  [hidden]:not([hidden=until-found i]){display:none!important}
   :root{
     --color-bg:#F7F5EF;
     --color-surface:#FFFFFF;
@@ -268,9 +274,31 @@
   .footer-bottom{ margin-top:32px; padding-top:20px; border-top:1px solid rgba(255,255,255,0.14); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; font-size:12.5px; }
 
   .visually-hidden{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+
+  /* communities we serve */
+  .communities{ background:var(--color-surface-muted); }
+  .communities-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:44px; }
+  @media (max-width:920px){ .communities-grid{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:620px){ .communities-grid{ grid-template-columns:1fr; } }
+  .county-card{ background:var(--color-surface); border:1px solid var(--color-border); border-radius:20px; padding:24px; box-shadow:var(--shadow-soft); display:flex; flex-direction:column; gap:12px; transition:transform 180ms ease, box-shadow 180ms ease; }
+  .county-card:hover{ transform:translateY(-2px); box-shadow:var(--shadow-lift); }
+  .county-card-head{ display:flex; align-items:center; gap:12px; }
+  .county-card-head .icon-tile{ width:38px; height:38px; border-radius:12px; background:var(--color-secondary); color:var(--color-on-secondary); display:flex; align-items:center; justify-content:center; flex:none; }
+  .county-card-head .icon-tile svg{ width:18px; height:18px; }
+  .county-card h3{ font-size:18px; }
+  .county-badge{ font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; padding:3px 9px; border-radius:999px; background:var(--color-bg); color:var(--color-primary); margin-left:auto; border:1px solid var(--color-border); }
+  .city-tags{ display:flex; flex-wrap:wrap; gap:8px; margin-top:6px; }
+  .city-tag{ font-size:13.5px; padding:5px 11px; border-radius:8px; background:var(--color-bg); color:var(--color-ink); border:1px solid var(--color-border); }
+  .city-tag.featured{ background:color-mix(in srgb, var(--color-primary) 12%, var(--color-surface)); color:var(--color-primary); font-weight:700; border-color:color-mix(in srgb, var(--color-primary) 35%, transparent); }
+  .service-radius-note{ margin-top:36px; padding:20px 24px; border-radius:16px; background:var(--color-surface); border:1px dashed var(--color-border); display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+  .service-radius-note p{ font-size:14.5px; color:var(--color-ink-muted); margin:0; }
+  .service-radius-note strong{ color:var(--color-ink); }
 </style>
+</head>
+<body>
 
 <svg class="visually-hidden" aria-hidden="true">
+  <symbol id="icon-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
   <symbol id="icon-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5s-7.5-4.6-10-9.4C.4 7.7 2 4 5.7 4c2.1 0 3.6 1.2 4.3 2.6.7-1.4 2.2-2.6 4.3-2.6C18 4 19.6 7.7 22 11.1c-2.5 4.8-10 9.4-10 9.4Z"/></symbol>
   <symbol id="icon-heart-mark" viewBox="0 0 24 24">
     <path fill="currentColor" d="M12,21 C12,16 21,15 21,8 C21,3 16,2.5 12,6.5 C8,2.5 3,3 3,8 C3,15 12,16 12,21 Z"/>
@@ -302,7 +330,7 @@
       <a href="tel:+13125550142"><svg aria-hidden="true"><use href="#icon-phone"/></svg>(312) 555-0142</a>
       <a href="mailto:hello@pureheartchicagocare.com"><svg aria-hidden="true"><use href="#icon-mail"/></svg>hello@pureheartchicagocare.com</a>
     </div>
-    <span class="utility-note">Serving Chicago &amp; the Illinois Suburbs &middot; Care coordinators available 24/7</span>
+    <span class="utility-note">Serving Chicago, Rockford &amp; the Illinois Suburbs &middot; Care coordinators available 24/7</span>
   </div>
 </div>
 
@@ -318,6 +346,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#challenge">The Challenge</a></li>
         <li><a href="#solution">How We Help</a></li>
+        <li><a href="#communities">Communities</a></li>
         <li><a href="#stories">Stories</a></li>
         <li><a href="https://claude.ai/code/artifact/fb063cc5-fe1d-4aa5-a3cb-46865786bfa7">Refer a Patient</a></li>
         <li><a href="https://claude.ai/code/artifact/ef9278db-c2f1-4c5a-8a4d-158025a8ccd6">Careers</a></li>
@@ -337,9 +366,9 @@
 <section id="home" class="hero">
   <div class="wrap">
     <div class="hero-copy">
-      <span class="eyebrow"><span class="rule"></span>Home Health Care &middot; Chicago, IL</span>
+      <span class="eyebrow"><span class="rule"></span>Senior Home Care &middot; Chicago, Rockford &amp; Suburbs</span>
       <h1>The comfort of home.<br>The confidence of <em>care</em>.</h1>
-      <p class="lede">Pure Heart brings non-medical personal care, companionship, and dependable everyday support into Chicago homes — so your family can stay together, and your loved one can stay where they belong.</p>
+      <p class="lede">Pure Heart brings dedicated personal care, companionship, and dependable everyday support into Chicago, Rockford, and surrounding Illinois homes &mdash; so your family can stay together, and your loved one can stay where they belong.</p>
       <div class="cta-row">
         <a class="btn btn-accent" href="#cta">Request a Free Consultation<svg aria-hidden="true"><use href="#icon-arrow-right"/></svg></a>
         <a class="btn btn-ghost" href="tel:+13125550142"><svg aria-hidden="true"><use href="#icon-phone"/></svg>(312) 555-0142</a>
@@ -365,8 +394,8 @@
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow"><span class="rule"></span>The Challenge Every Family Faces</span>
-      <h2>You want them safe at home. You don't know where to start.</h2>
-      <p>Between doctor's appointments, phone calls, and worry, caregiving for a parent in Chicago can feel like a second job — one nobody trained you for.</p>
+      <h2>The Home Care Challenges Chicagoland Families Face</h2>
+      <p>Between doctor's appointments, phone calls, and worry, caregiving for an aging parent in Chicago, Rockford, or the suburbs can feel like a second job &mdash; one nobody trained you for.</p>
     </div>
     <div class="problem-grid">
       <div class="problem-card">
@@ -395,13 +424,13 @@
     <div class="section-head">
       <span class="eyebrow"><span class="rule"></span>How Pure Heart Helps</span>
       <h2>One trusted team. A plan built around your family.</h2>
-      <p class="solution-intro">Pure Heart pairs your loved one with a consistent, background-checked caregiver and a personalized plan of care — so daily support feels like family, not a revolving door of strangers. Pure Heart provides non-medical home care; we do not provide skilled nursing or clinical medical services.</p>
+      <p class="solution-intro">Pure Heart pairs your loved one with a consistent, background-checked caregiver and a personalized plan of care &mdash; so daily support feels like family, not a revolving door of strangers. Pure Heart provides dedicated home care; we do not provide skilled nursing or clinical medical services.</p>
     </div>
     <div class="services-grid">
       <article class="service-card"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-users"/></svg></span><h3>Personal Care &amp; Daily Living</h3><p>Bathing, dressing, grooming, and mobility assistance, delivered with patience and dignity.</p></article>
       <article class="service-card"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-heart"/></svg></span><h3>Companionship Care</h3><p>Conversation, meals, errands, and presence — because isolation is one of the hardest parts of aging alone.</p></article>
       <article class="service-card"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-clock"/></svg></span><h3>Respite Care</h3><p>Scheduled relief for family caregivers, from a few hours a week to overnight coverage.</p></article>
-      <article class="service-card"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-shield"/></svg></span><h3>Alzheimer's &amp; Dementia Care</h3><p>Caregivers trained in non-medical memory-care routines, redirection techniques, and home safety.</p></article>
+      <article class="service-card"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-shield"/></svg></span><h3>Alzheimer's &amp; Dementia Care</h3><p>Caregivers trained in specialized memory-care routines, redirection techniques, and home safety.</p></article>
       <article class="service-card"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-home"/></svg></span><h3>Homemaker &amp; Light Housekeeping</h3><p>Meal preparation, laundry, tidying, and keeping the home safe and comfortable.</p></article>
       <article class="service-card"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-car"/></svg></span><h3>Transportation &amp; Errands</h3><p>Rides to appointments, grocery runs, and errands, with a familiar face along the way.</p></article>
     </div>
@@ -409,7 +438,7 @@
       <div class="difference-item"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-check"/></svg></span><div><h4>Screened caregivers</h4><p>Background checks &amp; references</p></div></div>
       <div class="difference-item"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-check"/></svg></span><div><h4>Care team oversight</h4><p>Every plan reviewed &amp; adjusted with you</p></div></div>
       <div class="difference-item"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-check"/></svg></span><div><h4>Flexible scheduling</h4><p>Hours a week to live-in care</p></div></div>
-      <div class="difference-item"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-check"/></svg></span><div><h4>Rooted in Chicago</h4><p>Local caregivers, local knowledge</p></div></div>
+      <div class="difference-item"><span class="icon-tile"><svg aria-hidden="true"><use href="#icon-check"/></svg></span><div><h4>Rooted in Illinois</h4><p>Local caregivers, Chicago to Rockford</p></div></div>
     </div>
   </div>
   <div class="seam seam--to-surface" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,0 C360,80 1080,80 1440,0 L1440,80 L0,80 Z"/></svg></div>
@@ -432,7 +461,7 @@
   <div class="wrap">
     <div class="section-head center">
       <span class="eyebrow"><span class="rule"></span>What Families Are Saying</span>
-      <h2>Trusted by families across Chicago</h2>
+      <h2>Trusted by Families Across Chicago &amp; the Illinois Suburbs</h2>
     </div>
 
     <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Client testimonials">
@@ -474,6 +503,139 @@
     </div>
     <p class="sample-note">Sample testimonials shown for layout purposes — replace with real, consented client stories before launch.</p>
   </div>
+  <div class="seam seam--to-muted" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,0 C360,80 1080,80 1440,0 L1440,80 L0,80 Z"/></svg></div>
+</section>
+
+<!-- ================= COMMUNITIES WE SERVE ================= -->
+<section id="communities" class="communities section-pad">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow"><span class="rule"></span>Service Areas</span>
+      <h2>Communities We Serve Across Illinois</h2>
+      <p>Pure Heart proudly provides compassionate in-home care across the City of Chicago, Rockford, and surrounding Illinois communities &mdash; pairing families with dedicated, background-checked local caregivers.</p>
+    </div>
+
+    <div class="communities-grid">
+      <!-- Cook County & Chicago -->
+      <article class="county-card">
+        <div class="county-card-head">
+          <span class="icon-tile"><svg aria-hidden="true"><use href="#icon-pin"/></svg></span>
+          <h3>Cook County &amp; Chicago</h3>
+          <span class="county-badge">Primary Hub</span>
+        </div>
+        <p style="font-size:14px; color:var(--color-ink-muted); margin:0;">Serving the heart of Chicago and surrounding suburban townships:</p>
+        <div class="city-tags">
+          <span class="city-tag featured">City of Chicago</span>
+          <span class="city-tag featured">Bridgeview</span>
+          <span class="city-tag">Evanston</span>
+          <span class="city-tag">Oak Park</span>
+          <span class="city-tag">Schaumburg</span>
+          <span class="city-tag">Skokie</span>
+          <span class="city-tag">Arlington Heights</span>
+          <span class="city-tag">Des Plaines</span>
+        </div>
+      </article>
+
+      <!-- Winnebago County & Rockford -->
+      <article class="county-card">
+        <div class="county-card-head">
+          <span class="icon-tile"><svg aria-hidden="true"><use href="#icon-pin"/></svg></span>
+          <h3>Winnebago County</h3>
+          <span class="county-badge">Northern Region</span>
+        </div>
+        <p style="font-size:14px; color:var(--color-ink-muted); margin:0;">Dedicated care coordination throughout greater Rockford and neighboring communities:</p>
+        <div class="city-tags">
+          <span class="city-tag featured">Rockford</span>
+          <span class="city-tag">Loves Park</span>
+          <span class="city-tag">Machesney Park</span>
+          <span class="city-tag">South Beloit</span>
+          <span class="city-tag">Roscoe</span>
+          <span class="city-tag">Cherry Valley</span>
+        </div>
+      </article>
+
+      <!-- DuPage County -->
+      <article class="county-card">
+        <div class="county-card-head">
+          <span class="icon-tile"><svg aria-hidden="true"><use href="#icon-pin"/></svg></span>
+          <h3>DuPage County</h3>
+          <span class="county-badge">Western Suburbs</span>
+        </div>
+        <p style="font-size:14px; color:var(--color-ink-muted); margin:0;">Trusted senior care for DuPage County families and residential neighborhoods:</p>
+        <div class="city-tags">
+          <span class="city-tag featured">Lombard</span>
+          <span class="city-tag">Naperville</span>
+          <span class="city-tag">Wheaton</span>
+          <span class="city-tag">Downers Grove</span>
+          <span class="city-tag">Hinsdale</span>
+          <span class="city-tag">Elmhurst</span>
+          <span class="city-tag">Oak Brook</span>
+        </div>
+      </article>
+
+      <!-- Lake County -->
+      <article class="county-card">
+        <div class="county-card-head">
+          <span class="icon-tile"><svg aria-hidden="true"><use href="#icon-pin"/></svg></span>
+          <h3>Lake County</h3>
+          <span class="county-badge">North Shore</span>
+        </div>
+        <p style="font-size:14px; color:var(--color-ink-muted); margin:0;">Reliable caregivers supporting seniors along the North Shore and Lake County:</p>
+        <div class="city-tags">
+          <span class="city-tag">Waukegan</span>
+          <span class="city-tag">Highland Park</span>
+          <span class="city-tag">Lake Forest</span>
+          <span class="city-tag">Libertyville</span>
+          <span class="city-tag">Buffalo Grove</span>
+          <span class="city-tag">Vernon Hills</span>
+        </div>
+      </article>
+
+      <!-- Will County -->
+      <article class="county-card">
+        <div class="county-card-head">
+          <span class="icon-tile"><svg aria-hidden="true"><use href="#icon-pin"/></svg></span>
+          <h3>Will County</h3>
+          <span class="county-badge">Southwest Suburbs</span>
+        </div>
+        <p style="font-size:14px; color:var(--color-ink-muted); margin:0;">Compassionate in-home companionship and personal support across Will County:</p>
+        <div class="city-tags">
+          <span class="city-tag">Joliet</span>
+          <span class="city-tag">Plainfield</span>
+          <span class="city-tag">Bolingbrook</span>
+          <span class="city-tag">Frankfort</span>
+          <span class="city-tag">New Lenox</span>
+          <span class="city-tag">Lockport</span>
+        </div>
+      </article>
+
+      <!-- Kane & McHenry Counties -->
+      <article class="county-card">
+        <div class="county-card-head">
+          <span class="icon-tile"><svg aria-hidden="true"><use href="#icon-pin"/></svg></span>
+          <h3>Kane &amp; McHenry Counties</h3>
+          <span class="county-badge">Fox Valley &amp; Northwest</span>
+        </div>
+        <p style="font-size:14px; color:var(--color-ink-muted); margin:0;">In-home care services throughout the Fox River Valley and McHenry communities:</p>
+        <div class="city-tags">
+          <span class="city-tag">Aurora</span>
+          <span class="city-tag">Elgin</span>
+          <span class="city-tag">St. Charles</span>
+          <span class="city-tag">Geneva</span>
+          <span class="city-tag">Crystal Lake</span>
+          <span class="city-tag">Algonquin</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="service-radius-note">
+      <div>
+        <strong>Don't see your specific neighborhood or township listed?</strong>
+        <p>Our care coordinator network spans across northern Illinois. Contact our 24/7 team to confirm immediate caregiver availability in your area.</p>
+      </div>
+      <a class="btn btn-ghost" href="tel:+13125550142"><svg aria-hidden="true"><use href="#icon-phone"/></svg>(312) 555-0142</a>
+    </div>
+  </div>
   <div class="seam seam--to-primary" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,80 C360,0 1080,0 1440,80 L1440,80 L0,80 Z"/></svg></div>
 </section>
 
@@ -482,7 +644,7 @@
   <div class="wrap section-pad">
     <div>
       <span class="eyebrow"><span class="rule"></span>We're Here When You Need Us</span>
-      <h2 style="margin-top:10px; font-size:clamp(26px,3.4vw,38px);">Request your free consultation</h2>
+      <h2 style="margin-top:10px; font-size:clamp(26px,3.4vw,38px);">Schedule your free in-home consultation</h2>
       <p style="margin-top:12px; max-width:44ch;">No obligation, no pressure — a care coordinator will visit your loved one's home and build a plan around their needs.</p>
       <div class="cta-steps">
         <div class="cta-step"><span class="num">1</span><span>Free consultation</span></div>
@@ -532,6 +694,7 @@
         <a href="#home">Home</a>
         <a href="#challenge">The Challenge</a>
         <a href="#solution">How We Help</a>
+        <a href="#communities">Communities</a>
         <a href="#stories">Stories</a>
         <a href="https://claude.ai/code/artifact/fb063cc5-fe1d-4aa5-a3cb-46865786bfa7">Refer a Patient</a>
         <a href="https://claude.ai/code/artifact/ef9278db-c2f1-4c5a-8a4d-158025a8ccd6">Careers</a>
@@ -540,7 +703,7 @@
     </div>
     <div class="footer-bottom">
       <span>&copy; 2026 Pure Heart Home Health Care. All rights reserved.</span>
-      <span>Non-Medical Home Care &middot; Licensed in the State of Illinois &middot; Serving Chicago &amp; the Illinois Suburbs</span>
+      <span>Licensed in the State of Illinois &middot; Serving Chicago, Rockford &amp; the Illinois Suburbs</span>
     </div>
   </div>
 </footer>
